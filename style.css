@@ -81,19 +81,19 @@ body {
 }
 
 #coverPage {
-	height: 100vh;
+	min-height: 100vh;
 	/* border: red dashed 1px; */
 	/* background-color: #0e6e84; */
 	background: linear-gradient(#0e6e84, #36ada3);
 }
 
 #proficiencyPage {
-	height: 100vh;
+	min-height: 100vh;
 	/* border: red dashed 1px; */
 }
 
 #projectsPage {
-	height: 100vh;
+	min-height: 100vh;
 	/* border: red dashed 1px; */
 	background: linear-gradient(#0e6e84, #36ada3);
 }
@@ -136,8 +136,8 @@ body {
 }
 
 .projectItem {
-	flex: 0 0 500px;
-	height: 300px;
+	flex: 0 0 480px;
+	height: 270px;
 	background-color: rgba(0, 0, 0, 0.1);
 	margin: 10px 10px;
 	text-align: center;
@@ -146,7 +146,6 @@ body {
 
 #mrello {
 	background-image: url(./resources/Mrello/1.png);
-	background-color: transparent;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: center center;
