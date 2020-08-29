@@ -3,88 +3,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="coverPage.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
 </head>
 <body>
 
+
+
     <!-- Cover Page -->
-    <div id="coverPage" class="container-fluid py-1 d-md-flex justify-content-center align-items-center">
-
-        <div class="d-flex justify-content-center align-items-center flex-column">
-
-            <!-- Profile picture -->
-            <div>
-                <div class="circleContainer d-flex justify-content-center align-items-center">
-                    <div class="profilePic">
-                        <div class="circleSmall"></div>
-                    </div>
-                </div>
-                
-            </div>
-
-            <!-- Personal Details -->
-            <div  class="mt-2 heading1 text-white">Aayushi Shah</div>
-
-            <div class="heading2 text-white">Full Stack Developer</div>
-
-            <!-- Contact Details -->
-            <div id="contact" class="d-flex flex-column flex-md-row justify-content-center align-items-center my-3">
-                <div class="mx-2 d-flex flex-row justify-content-center align-items-center ">
-                    <i class="fas fa-map-marker-alt gold m-1" ></i>
-                    <div class="text-white">Mumbai, India</div>
-                </div>
-                <div class="mx-2 d-flex flex-row justify-content-center align-items-center ">
-                    <i class="fas fa-phone-alt gold m-1" ></i>
-                    <div class="text-white">+91 986 9988 845</div>
-
-                </div>
-                <div class="mx-2 d-flex flex-row justify-content-center align-items-center">
-                    <i class="fas fa-envelope gold m-1"></i>
-                    <div class="text-white">aayu.shah711@gmail.com</div>
-                </div>
-            </div>
-
-            <!-- Summary -->
-            <div class="row">
-                <div class="col-12 col-md-6 offset-md-3 text-justify text-md-center mb-2 heading3">
-                    An empathetic & hardworking individual with a problem-solving mindset who likes building apps.
-                    <br>
-                    <a href="https://drive.google.com/file/d/1DeC7V6l9gF-Pq6PZEFwi8xy1ACel9g4F/view?usp=sharing" target="_blank"> View full resume</a>
-                </div>
-            </div>
-
-            <!-- Tech Stacks -->
-            <div class="row">
-                <div class="col-3 mt-3 col-md-3">
-                    <div class="react  mx-md-5">
-                        <img src="./resources/tech-stacks/css-logo(100x100).png" alt="react" height="50px" width="50px">
-                    </div>
-                </div>
-                <div class="col-3 mt-3 col-md-3">
-                    <div class="react mx-md-5">
-                        <img src="./resources/tech-stacks/html-logo(100x100).png" alt="react" height="50px" width="50px">
-                    </div>
-                </div>
-                <div class="col-3 mt-3 col-md-3">
-                    <div class="react  mx-md-5" style="background-color: #f3db1c;">
-                        <img src="./resources/tech-stacks/javascript-logo(100x100).png" alt="react" height="50px" width="50px" >
-                    </div>
-                </div>
-                <div class="col-3 mt-3 col-md-3">
-                    <div class="react mx-md-5">
-                        <img src="./resources/tech-stacks/react-logo(100x100).png" alt="react" height="50px" width="50px">
-                    </div>
-                </div>
-
-            </div>
-
+    <div id="profile" class="container-fluid p-0 m-0 d-flex .flex-wrap flex-column flex-lg-row .justify-content-center .align-items-center" >
+        <div id="photo" class="flex-grow-0 d-flex align-items-center justify-content-center">
+            <img src="./resources/Aayushi Shah.jpg" alt="Aayushi" class="img-fluid">
         </div>
+        <div id="name" class="flex-grow-1">
+            <div id="fullName" class="d-flex flex-column justify-content-end align-items-end" >
 
+                <div id="firstName">Aayushi</div>
+                <div id="lastName">Shah</div>
+            </div>
+            <div id="about" class="d-flex justify-content-center align-items-center flex-column">
+                
+                    <!-- Personal Details -->
+        
+                    <div class="heading1 text-center text-secondary">Full Stack Developer</div>
+        
+                    <!-- Contact Details -->
+                    <div id="contact" class="d-flex flex-column flex-md-row justify-content-center align-items-center my-3">
+                        <div class="mx-2 d-flex flex-row justify-content-center align-items-center ">
+                            <i class="fas fa-map-marker-alt gold m-1" ></i>
+                            <div class="text-secondary">Mumbai, India</div>
+                        </div>
+                        <div class="mx-2 d-flex flex-row justify-content-center align-items-center ">
+                            <i class="fas fa-phone-alt gold m-1" ></i>
+                            <div class="text-secondary">+91 986 9988 845</div>
+        
+                        </div>
+                        <div class="mx-2 d-flex flex-row justify-content-center align-items-center">
+                            <i class="fas fa-envelope gold m-1"></i>
+                            <div class="text-secondary">aayu.shah711@gmail.com</div>
+                        </div>
+                    </div>
+        
+                    <!-- Summary -->
+                    <div class="row">
+                        <div class="col-12 col-md-6 offset-md-3 text-center text-md-center mb-2 ">
+                            An empathetic & hardworking individual with a problem-solving mindset who likes building apps.
+                            <br>
+                            <a target="_blank" href="https://drive.google.com/file/d/1DeC7V6l9gF-Pq6PZEFwi8xy1ACel9g4F/view?usp=sharing"> View full resume</a>
+                        </div>
+                    </div>
+        
+                    <!-- Tech Stacks -->
+                    <div class="row">
+                        <div class="col-3 mt-3 col-md-3 ">
+                            <div class="react  mx-md-5">
+                                <img src="https://cdn.svgporn.com/logos/html-5.svg" alt="react" height="50px" width="50px">
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3 col-md-3">
+                            <div class="react mx-md-5">
+                                <img src="https://cdn.svgporn.com/logos/css-3.svg" alt="react" height="50px" width="50px">
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3 col-md-3">
+                            <div class="react  mx-md-5" style="background-color: #f3db1c;">
+                                <img src="https://cdn.svgporn.com/logos/javascript.svg" alt="react" height="50px" width="50px" >
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3 col-md-3">
+                            <div class="react mx-md-5">
+                                <img src="https://cdn.svgporn.com/logos/react.svg" alt="react" height="50px" width="50px">
+                            </div>
+                        </div>
+                        <!-- <div class="col-3 mt-3 col-md-3">
+                            <div class="react mx-md-5">
+                                <img src="https://cdn.svgporn.com/logos/redux.svg" alt="react" height="50px" width="50px">
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3 col-md-3">
+                            <div class="react mx-md-5">
+                                <img src="https://cdn.svgporn.com/logos/bootstrap.svg" alt="react" height="50px" width="50px">
+                            </div>
+                        </div> -->
+        
+                    </div>
+        
+
+            </div>
+        </div>
     </div>
+
 
     <!-- Proficieny Page -->
     <div id="proficiencyPage" class="container-fluid py-1">
@@ -146,10 +160,10 @@
                 <div class="projectItem" id="mrello">
                     <div class="row">
                         <div class="col-12 col-md-4 offset-md-4">
-                            <a href="https://github.com/aayushah711/masai-module-4"><button class="btn-warning btn-block btn">Github Link</button></a>
+                            <a target="_blank" href="https://github.com/aayushah711/masai-module-4"><button class="btn-warning btn-block btn">Github Link</button></a>
                         </div>
                         <div class="col-12 col-md-4 my-2 my-md-0">
-                            <a href="https://mrello.vercel.app/" target="_blank"><button class="btn btn-warning btn-block">Demo</button></a>
+                            <a target="_blank" href="https://mrello.vercel.app/"><button class="btn btn-warning btn-block">Demo</button></a>
                         </div>
                     </div>
                 </div>
@@ -158,10 +172,10 @@
                 <div class="projectItem" id="gupshup">
                     <div class="row">
                         <div class="col-12 col-md-4 offset-md-4">
-                            <a href="https://github.com/arjun1237/gupshup"><button class="btn-warning btn-block btn">Github Link</button></a>
+                            <a target="_blank" href="https://github.com/arjun1237/gupshup"><button class="btn-warning btn-block btn">Github Link</button></a>
                         </div>
                         <div class="col-12 col-md-4 my-2 my-md-0">
-                            <a href=""><button class="btn btn-warning btn-block">Demo</button></a>
+                            <a target="_blank" href=""><button class="btn btn-warning btn-block disabled">Demo</button></a>
                         </div>
                     </div>
                 </div>
@@ -170,10 +184,10 @@
                 <div class="projectItem" id="sudoku">
                     <div class="row">
                         <div class="col-12 col-md-4 offset-md-4">
-                            <a href=""><button class="btn-warning btn-block btn">Github Link</button></a>
+                            <a target="_blank" href=""><button class="btn-warning btn-block btn disabled">Github Link</button></a>
                         </div>
                         <div class="col-12 col-md-4 my-2 my-md-0">
-                            <a href=""><button class="btn btn-warning btn-block">Demo</button></a>
+                            <a target="_blank" href=""><button class="btn btn-warning btn-block disabled">Demo</button></a>
                         </div>
                     </div>
                 </div>
@@ -185,7 +199,7 @@
                             <a target="_blank" href="https://github.com/aayushah711/masai-sprint-4"><button class="btn-warning btn-block btn">Github Link</button></a>
                         </div>
                         <div class="col-12 col-md-4 my-2 my-md-0">
-                            <a href=""><button class="btn btn-warning btn-block">Demo</button></a>
+                            <a target="_blank" href=""><button class="btn btn-warning btn-block disabled">Demo</button></a>
                         </div>
                     </div>
                 </div>

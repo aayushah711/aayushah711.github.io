@@ -23,7 +23,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: white;
+	/* color: white; */
 	font-weight: bold;
 }
 .circleContainer {
@@ -199,10 +199,12 @@ a:hover {
 	background-position: center center;
 }
 
-#mrello:hover {
+/* #mrello:hover {
 	cursor: pointer;
 	background-image: url(./resources/Mrello/1.png);
-}
+	transform: scale(1.5);
+	z-index: 10;
+} */
 
 #gupshup {
 	background-image: url(./resources/gupshup/1.png);
@@ -211,10 +213,10 @@ a:hover {
 	background-position: center center;
 }
 
-#gupshup:hover {
+/* #gupshup:hover {
 	cursor: pointer;
 	background-image: url(./resources/gupshup/2.png);
-}
+} */
 
 #sudoku {
 	background-image: url(./resources/sudoku/1.png);
@@ -223,10 +225,10 @@ a:hover {
 	background-position: center center;
 }
 
-#sudoku:hover {
+/* #sudoku:hover {
 	cursor: pointer;
 	background-image: url(./resources/sudoku/2.png);
-}
+} */
 
 #pms {
 	background-image: url(./resources/pms/1.png);
@@ -235,7 +237,7 @@ a:hover {
 	background-position: center center;
 }
 
-#pms:hover {
+/* #pms:hover {
 	cursor: pointer;
 	background-image: url(./resources/pms/2.png);
-}
+} */
