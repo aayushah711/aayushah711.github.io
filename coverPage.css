@@ -13,7 +13,7 @@ body {
 	}
 }
 
-#photo {
+#photoWrapper {
 	padding: 20px;
 	height: 100vh;
 	/* border: red dashed; */
@@ -40,7 +40,7 @@ body {
 }
 
 @media only screen and (min-width: 840px) {
-	#photo {
+	#photoWrapper {
 		position: -webkit-sticky;
 		position: sticky;
 		top: 0px;
@@ -51,7 +51,7 @@ body {
 		height: 100vh;
 		padding: 50px;
 		/* color: #b14e17; */
-		color: #36ada3;
+		color: white;
 		color: linear-gradient(#0e6e84, #36ada3);
 		font-size: 650%;
 		font-weight: 700;
@@ -73,7 +73,7 @@ body {
 	/* background: linear-gradient(#0e6e84, #36ada3); */
 }
 
-img {
+#photo {
 	max-height: 100%;
 	margin: 20px 0 20px 0;
 }

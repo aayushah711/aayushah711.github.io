@@ -93,9 +93,14 @@ a {
 	background: linear-gradient(#0e6e84, #36ada3);
 }
 
+#profile {
+	background: linear-gradient(#0e6e84, #36ada3);
+}
+
 #proficiencyPage {
 	min-height: 100vh;
 	/* border: red dashed 1px; */
+	background-color: white;
 }
 .proficiencies {
 	height: 100px;
@@ -126,12 +131,6 @@ a {
 	background: url(./resources/proficiencies/ds.png);
 }
 
-#projectsPage {
-	min-height: 100vh;
-	/* border: red dashed 1px; */
-	background: linear-gradient(#0e6e84, #36ada3);
-}
-
 #triangle1 {
 	width: 0;
 	height: 0;
@@ -153,91 +152,14 @@ a {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#projects {
-	scroll-snap-type: x mandatory;
-	display: flex;
-	overflow: auto;
-	flex: none;
-	width: 100%;
-	flex-flow: row nowrap;
-	/* border: red dashed; */
-	height: 400px;
-
-	/* cursor: url("https://img.icons8.com/flat_round/64/000000/resize-four-directions.png"), move; */
-}
-
-#projects::-webkit-scrollbar {
-	height: 0;
-	width: 0;
-	background: transparent;
-}
-
-.projectItem {
-	flex: 0 0 480px;
-	height: 270px;
-	background-color: rgba(0, 0, 0, 0.1);
-	margin: 10px 10px;
-	text-align: right;
-	scroll-snap-align: center;
-	position: relative;
-}
-
-.projectItem > div {
-	text-decoration: none;
-	position: relative;
-	top: 290px;
-}
-
 a:hover {
 	text-decoration: none;
 }
 
-#mrello {
-	background-image: url(./resources/Mrello/2.png);
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	background-position: center center;
+#social {
+	background-color: black;
+	height: 500px;
+	position: sticky;
+	bottom: 0;
+	z-index: 0;
 }
-
-/* #mrello:hover {
-	cursor: pointer;
-	background-image: url(./resources/Mrello/1.png);
-	transform: scale(1.5);
-	z-index: 10;
-} */
-
-#gupshup {
-	background-image: url(./resources/gupshup/1.png);
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
-/* #gupshup:hover {
-	cursor: pointer;
-	background-image: url(./resources/gupshup/2.png);
-} */
-
-#sudoku {
-	background-image: url(./resources/sudoku/1.png);
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
-/* #sudoku:hover {
-	cursor: pointer;
-	background-image: url(./resources/sudoku/2.png);
-} */
-
-#pms {
-	background-image: url(./resources/pms/1.png);
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
-/* #pms:hover {
-	cursor: pointer;
-	background-image: url(./resources/pms/2.png);
-} */
