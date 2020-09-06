@@ -7,7 +7,7 @@ let callback = (entries, observer) => {
 	entries.forEach((entry) => {
 		// Each entry describes an intersection change for one observed
 		// target element:
-		console.log(entry.boundingClientRect);
+		// console.log(entry.boundingClientRect);
 		// console.log(entry.intersectionRatio);
 		// console.log(entry.intersectionRect);
 		// console.log(entry.isIntersecting);

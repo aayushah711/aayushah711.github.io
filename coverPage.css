@@ -37,6 +37,7 @@ body {
 	font-size: 50px;
 	font-weight: 700;
 	font-family: 'McLaren', cursive;
+	color: white;
 }
 
 @media only screen and (min-width: 840px) {
@@ -51,7 +52,6 @@ body {
 		height: 100vh;
 		padding: 50px;
 		/* color: #b14e17; */
-		color: white;
 		color: linear-gradient(#0e6e84, #36ada3);
 		font-size: 650%;
 		font-weight: 700;
@@ -61,6 +61,10 @@ body {
 	#firstName {
 		width: 100%;
 	}
+
+	#about {
+		height: 100vh;
+	}
 }
 
 #firstName {
@@ -68,9 +72,7 @@ body {
 }
 
 #about {
-	/* border: forestgreen dashed; */
-	height: 100vh;
-	/* background: linear-gradient(#0e6e84, #36ada3); */
+	height: 50%;
 }
 
 #photo {
