@@ -17,6 +17,9 @@
     box-shadow: 3px 3px 5px 6px #ccc;
 }
 
+.zoom {
+    transition: ease-in 0.1s;
+}
 .zoom:hover {
     transform: scale(1.08);
     cursor: pointer;
